@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<widget xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0" id="com.moodle.moodlemobile" version="3.4.0">
-  <name>Moodle Mobile</name>
+<widget xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0" id="com.indusved.learning" version="3.4.0">
+  <name>Indusved Learning</name>
   <description>
-        Moodle Mobile official app
+        Indusved Learning App
     </description>
-  <author href="http://moodle.com" email="mobile@moodle.com">
-        Moodle Mobile team
+  <author href="http://learning.indusved.com" email="brajesh@indusved.com">
+        Indusved Learning
     </author>
   <content src="index.html"/>
   <access origin="*"/>
@@ -21,7 +21,7 @@
   <preference name="target-device" value="universal"/>
   <preference name="fullscreen" value="false"/>
   <preference name="webviewbounce" value="false"/>
-  <preference name="AppendUserAgent" value="MoodleMobile"/>
+  <preference name="AppendUserAgent" value="IndusvedLearning"/>
   <preference name="android-minSdkVersion" value="14"/>
   <preference name="android-targetSdkVersion" value="19"/>
   <preference name="UIWebViewBounce" value="false"/>
@@ -63,7 +63,7 @@
       <variable name="SENDER_ID" value="694767596569" />
   </plugin>
   <plugin name="cordova-plugin-customurlscheme" spec="4.3.0">
-      <variable name="URL_SCHEME" value="moodlemobile" />
+      <variable name="URL_SCHEME" value="Indusvedlearning" />
   </plugin>
   <plugin name="ionic-plugin-keyboard" spec="2.2.1" />
   <plugin name="cordova-plugin-zip" spec="3.1.0" />
